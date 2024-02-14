@@ -1,4 +1,4 @@
-# Recommender and Retrieval Augmented Generation (RAG)
+# Recommender System and Retrieval Augmented Generation (RAG)
 
 ## Introduction
 This project consists of two phases aimed at building a recommender system for some items and designing an assistant based on the Retrieval Augmented Generation (RAG) system.
