@@ -17,12 +17,18 @@ To evaluate the performance of the recommender system, we define two matrices:
 - **Predictions Matrix**: This matrix contains 20 top similar items for each item in the dataset based on the recommender system's output.
 - **Ground Truth Matrix**: This matrix is created using cosine similarity as the scoring function to represent the true similarity between items.
 
-Evaluation metrics used:
+##### Evaluation metrics used:
+
 - **Spearman Correlation Coefficient**
+  
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/296c3746-6708-410f-b4c4-d27bd8d198a3)
 
+
+
 - **Mean Average Precision (MAP)**
+  
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/05929483-c928-448d-9b2e-a213069e08c4)
+
 
 
 ### Additional Approach
@@ -35,17 +41,38 @@ RAG systems are an easy and popular way to use your own data. You can provide it
 
 
 #### Workflow
-1. User inputs a question related to the headphone items (in 'revised.json' file).
+1. User inputs a question related to the headphone items (in 'revised_data.json' file).
 2. The recommender system retrieves the most similar documents based on the query.
 3. User's question and retrieved data serve as context for the Large Language Model (LLM), named "LLaMA".
 
 #### Sample Output
 - example 1
+  
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/99223d35-eb20-48b8-84aa-02b920b5e5e6)
 
+
 - example 2
+  
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/c4f4463f-8a91-40ea-b8e7-2b317c2b013a)
 
+
 - example 3
+ 
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/2498a6bd-df0f-454a-b064-11fb57c2e77b)
 
+
+## Installation
+
+In order to work with elasticsearch you have to run elastic search and use the API key and Cloud ID inorder to work with elasticsearch in colab.
+
+## usage
+in order to work with the `Elastic_Search`, first download the json file `revised_data.json`
+
+## Contact Us
+We're excited to hear from you! If you have any questions, suggestions, or need assistance, don't hesitate to reach out.
+Feel free to contact us via email at:
+- neg.jaafari@gmail.com
+- noorbakhsha1@gmail.com
+- Mehrnaz271380@gmail.com
+
+We're here to help and would love to hear about your experience using this project.
