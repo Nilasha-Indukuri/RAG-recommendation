@@ -4,7 +4,7 @@
 This project consists of two phases aimed at building a recommender system for some items and designing an assistant based on the Retrieval Augmented Generation (RAG) system.
 
 ### Phase 1: Recommender System
-In this phase, we utilize a JSON file named `revised_data.json`, which contains information about headphone items which we previously crawled from the Amazon website. (The implementation of this can be found in the [repository](link-to-repository).)
+In this phase, we utilize a JSON file named `revised_data.json`, which contains information about headphone items which we previously crawled from the Amazon website. (The implementation of this can be found in the [repository](https://github.com/negjafari/recommender-system-and-RAG).)
 
 #### Data Preparation
 The `revised_data.json` file provides details about the headphone items, including their names, descriptions, and other relevant information. To create the recommender system, we employ Elasticsearch to store and retrieve the data efficiently. We merge the 'name' and 'description' tags into a new tag called 'detail' for simplicity, which serves as the basis for similarity calculations.
