@@ -61,12 +61,10 @@ RAG systems are an easy and popular way to use your own data. You can provide it
   ![image](https://github.com/negjafari/recommender-system-and-RAG/assets/59292708/2498a6bd-df0f-454a-b064-11fb57c2e77b)
 
 
-## Installation
+## Usage
+In order to work with elasticsearch you have to use your own API key and Cloud ID in google colab. 
+You might download json file `revised_data.json` as well.
 
-In order to work with elasticsearch you have to run elastic search and use the API key and Cloud ID inorder to work with elasticsearch in colab.
-
-## usage
-in order to work with the `Elastic_Search`, first download the json file `revised_data.json`
 
 ## Contact Us
 We're excited to hear from you! If you have any questions, suggestions, or need assistance, don't hesitate to reach out.
