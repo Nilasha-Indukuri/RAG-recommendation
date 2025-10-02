@@ -70,5 +70,6 @@ You might download json file `revised_data.json` as well.
 I'm excited to hear from you! If you have any questions, suggestions, or need assistance, don't hesitate to reach out.
 Feel free to contact me via email at:
 - nilasha.indukuri@gmail.com
+- sanjanakodavali10@gmail.com
 
 We're here to help and would love to hear about your experience using this project.
